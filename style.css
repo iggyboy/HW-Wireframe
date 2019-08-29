@@ -46,7 +46,7 @@ p {
 
 section {
     float: left;
-    width: 55%;
+    width: 53%;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
@@ -55,12 +55,13 @@ section {
 }
 
 aside {
-    float: left;
-    width: 42%;
+    float: right;
+    width: 44%;
     margin-left: 10px;
     margin-bottom: 20px;
     height: 205px;
     text-align: center;
+    /* clear: right; */
 }
 
 footer {
@@ -74,6 +75,10 @@ footer {
 
 header, nav, footer {
     height: 70px;
+}
+
+#container {
+    width: 100%;
 }
 
 
